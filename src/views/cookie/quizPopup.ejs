@@ -1,0 +1,13 @@
+quizPopup.ejs
+<h3>- 공 지 사 항-</h3>
+오전 05까지 업데이트 예정입니다<hr>
+
+<input type="checkbox" id="chk" onclick="makeCookie()">
+<label for="chk">하루동안 열지 않음</label>
+
+<script>
+    function makeCookie(){
+        location.href = "/cookie/makeCookie"; // 쿠키 생성해줌(경로요청)
+        window.close();
+    }
+</script>
